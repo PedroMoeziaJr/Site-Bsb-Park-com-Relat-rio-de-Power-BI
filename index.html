@@ -4,8 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard Power BI</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Referência ao arquivo CSS externo -->
+    <style>
+        /* Estilo adicional para centralizar o iframe */
+        .iframe-centralizado {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
-    <iframe width="800" height="600" src="<iframe title="Primeira Dashboard" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiNTAwOWI5YjgtOTk4OC00OTQ4LWI0NTUtNmVlODMwZDIyOGI2IiwidCI6ImZkODgyOTBjLTRkODMtNDIwNy04NjUyLWFhZGQyNmVhYjJjYiJ9" frameborder="0" allowFullScreen="true"></iframe>
+    <div class="container">
+        <!-- Centraliza o iframe horizontalmente e verticalmente -->
+        <iframe title="Primeira Dashboard" class="iframe-centralizado" width="1200" height="600" src="https://app.powerbi.com/reportEmbed?reportId=36b689c4-1d61-4681-8fb2-b4dde10bba62&autoAuth=true&ctid=fd88290c-4d83-4207-8652-aadd26eab2cb" frameborder="0" allowFullScreen="true"></iframe>
+    </div>
 </body>
 </html>
